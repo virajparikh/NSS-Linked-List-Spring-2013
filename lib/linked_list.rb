@@ -4,6 +4,7 @@ class LinkedList
   attr_reader :first_item
 
   def initialize *args
+    @first_item = first_item
   end
 
   def add_item(payload)
