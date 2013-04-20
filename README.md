@@ -1,3 +1,8 @@
+The following is our first Ruby test-driven development exercise in Nashville Software School, taught by Eliza Brock.  It involves thinking about linked lists as a data structure and passing a series of pre-defined tests to make the data structure work.
+
+-Viraj Parikh
+
+
 NSS-Linked-List
 ===============
 
