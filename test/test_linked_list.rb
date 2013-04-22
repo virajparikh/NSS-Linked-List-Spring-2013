@@ -43,12 +43,19 @@ class LinkedListItemTest < Test::Unit::TestCase
     assert_equal(0, LinkedList.new.size)
   end
 
-  def test_10_list_size
+
+  def test_10a_list_size
+    ll = LinkedList.new
+    ll.add_item("foo")
+    ll.add_item("bar")
+    assert_equal( 2, ll.size)
+  end
+
+  def test_10b_list_size
     ll = LinkedList.new
     ll.add_item("foo")
     ll.add_item("bar")
     ll.add_item("grille")
-    ll.add_item("zoo")
     assert_equal( 3, ll.size)
   end
 
