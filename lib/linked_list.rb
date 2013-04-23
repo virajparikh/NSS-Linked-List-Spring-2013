@@ -71,13 +71,31 @@ class LinkedList
 
   # ========= Bonus ========== #
 
-  def [](payload)
-  end
+  # def [](payload)
+  # end
 
-  def []=(n, payload)
-  end
+  # def []=(n, payload)
+  # end
 
-  def remove(n)
-  end
+  # def remove(n)
+  # end
 
-end
+  def indexOf(payload)
+    # if something doesn't exist, return index nil
+    # add something
+    #   something has an index number
+    #   find the index number for something
+    #   if duplicate, find index number of original item
+    return nil if @first_item.nil?
+    index = 0
+    item = @first_item
+
+    until item.payload == payload 
+      item = item.next_list_item
+      index += 1
+      return nil if item.nil?
+    end
+
+    index
+    end
+  end
