@@ -1,10 +1,10 @@
 The following is our first Ruby test-driven development exercise in Nashville Software School, taught by Eliza Brock.  It involves thinking about linked lists as a data structure and passing a series of pre-defined tests to make the data structure work.
 
-test/test_______linked_______list_____item.rb:
+test/test__linked__list__item.rb:
 
 tests 1-5: storing a payload in an item, adding items, defining new items and the last item, and comparing items for sorting purposes.
 
-test/test_______linked___list.rb:
+test/test__linked__list.rb:
 
 
 tests 6-8: adding and getting items
@@ -17,7 +17,7 @@ tests 26-32: indexing
 
 tests 33-46: sorting  
 
-The problems are solved in lib/linked_______list_______item.rb and lb/linked_list.rb
+The problems are solved in lib/linked__list__item.rb and lb/linked_list.rb
 
 -Viraj Parikh
 
